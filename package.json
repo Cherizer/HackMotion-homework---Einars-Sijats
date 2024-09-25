@@ -1,0 +1,16 @@
+{
+  "name": "hackmotion-homework---einars-sijats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./wordpress/wp-content/themes/hackmotion/assets/css/tailwind.css -o ./wordpress/wp-content/themes/hackmotion/assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
