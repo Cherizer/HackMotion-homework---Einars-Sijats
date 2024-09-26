@@ -4,6 +4,6 @@
     </div>
 </footer>
 
-<?php wp_footer(); // WordPress hook for additional scripts before closing </body> tag ?>
+<?php wp_footer(); ?>
 </body>
 </html>

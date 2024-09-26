@@ -28,6 +28,7 @@ services:
      - MYSQL_USER=root
      - MYSQL_PASSWORD=password
      - MYSQL_DATABASE=wordpress
+     - TZ=Europe/Riga
    restart: always
  
  phpmyadmin:

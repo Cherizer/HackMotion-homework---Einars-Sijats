@@ -14,8 +14,13 @@ body {
     line-height: 1.5;
 }
 
-.line-height-24 {
-    line-height: 0.24;
+.progress-indicator {
+    transition: height 0.5s;
+}
+@media (max-width: 767px) {
+    .progress-indicator {
+        transition: width 0.5s;
+    }
 }
 
 .horizontal-line {
