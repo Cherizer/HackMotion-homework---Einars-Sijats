@@ -59,7 +59,8 @@ if (isset($_GET['goal'])) {
             </div>
             
             <div class="flex flex-col gap-[16px]">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Improvement Graph.png" alt="Improvement Graph" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Improvement Graph.png" alt="Improvement Graph" class="hidden md:inline" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Improvement Graph - mobile.png" alt="Improvement Graph" class="inline md:hidden" />
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Frame 4151179.png" alt="Frame" class="hidden md:inline"/>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Improvement Progress bar.png" alt="Improvement Progress bar" class="inline md:hidden" />
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Frame 4151178.png" alt="Guaranteed improvement" class="inline md:hidden" />
